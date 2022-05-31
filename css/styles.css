@@ -1,0 +1,334 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Tiro+Bangla&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+#menu {
+  background-color: #15410cbb; }
+  #menu ul {
+    text-align: center;
+    margin: 20px;
+    list-style-type: none; }
+    #menu ul li {
+      display: inline;
+      margin-left: 20px;
+      text-transform: uppercase;
+      font-size: 20px; }
+      #menu ul li a {
+        color: #76d320;
+        text-decoration: none; }
+        #menu ul li a:hover {
+          color: #084e02;
+          text-decoration: none;
+          transition: 2seg; }
+
+.seccion1 div h2 {
+  font-size: 60px;
+  text-align: center;
+  color: rgba(32, 143, 18, 0.815);
+  margin-top: 50px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.seccion1 div p {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #3b9e14a4;
+  font-family: 'Tiro Kannada', serif;
+  font-size: 20px; }
+
+.seccion1 div p {
+  margin-bottom: 20px; }
+
+.bsnimg {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.imgg:hover {
+  /*width: 400px;
+    height: 300px;
+    padding: 40px;*/
+  background-color: #cacaca;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10%;
+  transform: translate(20px, -10px);
+  transition: 2s; }
+
+.col {
+  padding-bottom: 20px; }
+
+.videoinfo {
+  flex-direction: column;
+  padding-bottom: 75px;
+  padding-top: 50px; }
+  .videoinfo h2 {
+    display: block;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(32, 143, 18, 0.815); }
+  .videoinfo iframe {
+    border-radius: 10px; }
+
+.card-title {
+  text-shadow: #000;
+  font-size: 17px;
+  color: #076613; }
+
+.card-text {
+  text-align: start;
+  margin-bottom: 60px;
+  color: #3b9e14a4;
+  font-family: 'Tiro Kannada', serif;
+  font-size: 20px; }
+
+.bsnimg, .videoinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.logosucu {
+  width: 60px;
+  height: 60px;
+  display: inline;
+  position: absolute;
+  top: 10px; }
+
+.container {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .container .card {
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: #1b8329;
+    display: inline;
+    box-shadow: 0 1px 10px rgba 0, 0, 0, 0.2;
+    color: #ffffff;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 400ms ease; }
+    .container .card:hover {
+      transform: translateY(-3%);
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2); }
+    .container .card img {
+      width: 330px;
+      height: 220px; }
+    .container .card h4 {
+      font-weight: 600;
+      font-family: 'Lato', sans-serif;
+      font-size: 22px; }
+    .container .card p {
+      padding: 0 1rem;
+      font-size: 17px;
+      font-weight: 300;
+      font-family: 'Montserrat', sans-serif; }
+    .container .card a {
+      font-weight: 500;
+      text-decoration: none;
+      padding: 8px;
+      color: #ffffff;
+      display: inline-block;
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      transition: all 400ms ease; }
+      .container .card a:hover {
+        background-color: #0d4d07;
+        color: #ffffff; }
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+  border: #2c8d06;
+  color: #2d8b07; }
+  .formulario div label {
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    border-style: groove; }
+  .formulario div input {
+    width: 300px;
+    height: 25x; }
+
+.piepagina {
+  width: 100%;
+  background-color: #15410cbb; }
+  .piepagina .grupo-1 {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    display: block;
+    grid-template-columns: repeat 3, 1fr;
+    grid-gap: 20px;
+    padding: 80px px; }
+    .piepagina .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+      justify-content: start;
+      align-items: flex-start; }
+    .piepagina .grupo-1 .box figure img {
+      width: 140px; }
+    .piepagina .grupo-1 .box h2 {
+      color: #fefefe;
+      margin-bottom: 25px;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    .piepagina .grupo-1 .box p {
+      color: #efefef;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .piepagina .grupo-1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fefefe;
+      background-color: #022c04;
+      text-align: center;
+      transition: all 300ms ease; }
+      .piepagina .grupo-1 .red-social a:hover {
+        color: #00ff0d; }
+  .piepagina .grupo-2 {
+    background-color: #022c04;
+    padding: 15px 10px;
+    text-align: center;
+    color: #efefef; }
+    .piepagina .grupo-2 .grupo-2 small {
+      font-size: 15px;
+      height: 15px;
+      width: 15px; }
+
+@media screen and (max-width: 800px) {
+  .piepagina .grupo-1 {
+    width: 0%;
+    grid-template-columns: repeat 3, 1fr;
+    grid-gap: 30px;
+    padding: 35px 0px; } }
+
+.container-form {
+  width: 100px;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px; }
+  .container-form .h2 {
+    margin-bottom: 15px;
+    font-size: 35px; }
+  .container-form .p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px; }
+  .container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700; }
+  .container-form .i {
+    color: #177734;
+    margin-right: 10px; }
+  .container-form .campo, .container-form textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px; }
+  .container-form .textarea {
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 140px;
+    min-height: 100px; }
+  .container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #0a7c23;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease; }
+    .container-form .btn-enviar:hover {
+      background: #076907; }
+
+.flexForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .flexForm .FormContactenos {
+    padding-left: 40px;
+    width: 500px;
+    overflow: auto;
+    display: inline-block;
+    margin-right: 30px; }
+  .flexForm input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .flexForm .formComentarios .textArea1 {
+    padding-left: 40px; }
+    .flexForm .formComentarios .textArea1 textarea {
+      height: 297px;
+      width: 460px;
+      resize: none; }
+
+.buttonEnviar {
+  padding: 0px 0px 20px 40px;
+  height: 100%; }
+
+.alert-warning {
+  padding-bottom: 10px;
+  width: 100%; }
+
+.mediospago {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 150px; }
+  .mediospago .pagos {
+    margin: 5px;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400; }
+    .mediospago .pagos:hover {
+      color: #1b7c13fa; }
+    .mediospago .pagos img {
+      width: 425px;
+      height: 350px;
+      border-radius: 5px;
+      cursor: pointer; }
+      .mediospago .pagos img:hover {
+        transform: translateY(-20px);
+        transition: 0.5s; }
+
+.tamañoaccord {
+  width: 800px;
+  margin-left: 600px;
+  margin-top: 100px;
+  margin-bottom: 150px; }
